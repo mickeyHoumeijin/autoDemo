@@ -14,12 +14,12 @@ class TestLogin:
     def setup(self):
         print("初始化")
         # Linux上运行必须加
-        '''chrome_options = Options() 
+        chrome_options = Options()
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
         chrome_options.add_argument('--headless')
-        self.driver = webdriver.Chrome("/root/chromedriver",chrome_options=chrome_options)'''
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome("/root/chromedriver",chrome_options=chrome_options)
+        #self.driver = webdriver.Chrome()
         self.loginPage = LoginPage(self.driver)
     @helper.testcase("测试用例1")
     def test_login(self):

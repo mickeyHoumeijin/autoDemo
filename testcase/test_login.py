@@ -5,12 +5,17 @@ from pages.LoginPage import LoginPage
 from selenium import webdriver
 import csv
 
+from selenium.webdriver.chrome.options import Options
+
 @helper.feature("Copa登陆")
 class TestLogin:
 
     @helper.step("初始化操作")
     def setup(self):
         print("初始化")
+        chrome_options = Options()
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-dev-shm-usage')
         self.driver = webdriver.Chrome()
         self.loginPage = LoginPage(self.driver)
     @helper.testcase("测试用例1")

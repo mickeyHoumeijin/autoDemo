@@ -185,6 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -417,10 +418,10 @@
       <item itemvalue="Python.test_main" />
       <item itemvalue="Python.basePage" />
       <item itemvalue="Python.runCase" />
+      <item itemvalue="Python.testh_print" />
       <item itemvalue="Python tests.pytest for test_login.Test_login" />
       <item itemvalue="Python tests.pytest in test_login.py" />
       <item itemvalue="Python tests.pytest in test_notice.py" />
-      <item itemvalue="Python.testh_print" />
     </list>
     <recent_temporary>
       <list>

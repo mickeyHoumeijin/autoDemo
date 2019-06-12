@@ -1392,3 +1392,19 @@
 2019-06-11 14:31:58 [root] [INFO] :20: 元素：('xpath', '/html/body/div/div[1]/section[1]/h1')，获取文本
 2019-06-11 14:31:58 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->/html/body/div/div[1]/section[1]/h1
 2019-06-11 14:31:58 [root] [INFO] :20: 获取到文本：首页
+2019-06-12 14:41:26 [root] [INFO] :20: 访问网址：http://101.200.149.181:8888/login/?next=/
+2019-06-12 14:41:26 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->login-username
+2019-06-12 14:41:27 [root] [INFO] :20: 元素:('id', 'login-username'),输入文本：meijin.hou
+2019-06-12 14:41:27 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->login-password
+2019-06-12 14:41:27 [root] [INFO] :20: 元素:('id', 'login-password'),输入文本：CA888888
+2019-06-12 14:41:27 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->login-code
+2019-06-12 14:41:27 [root] [INFO] :20: 点击元素:('id', 'login-code')
+2019-06-12 14:41:27 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->login-verification-code
+2019-06-12 14:41:27 [root] [INFO] :20: 元素:('id', 'login-verification-code'),输入文本：123456
+2019-06-12 14:41:27 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->login-password
+2019-06-12 14:41:27 [root] [INFO] :20: 点击元素:('id', 'login-password')
+2019-06-12 14:41:27 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->login-submit
+2019-06-12 14:41:27 [root] [INFO] :20: 点击元素:('id', 'login-submit')
+2019-06-12 14:41:27 [root] [INFO] :20: 元素：('xpath', '/html/body/div/div[1]/section[1]/h1')，获取文本
+2019-06-12 14:41:27 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->/html/body/div/div[1]/section[1]/h1
+2019-06-12 14:41:27 [root] [INFO] :20: 获取到文本：首页

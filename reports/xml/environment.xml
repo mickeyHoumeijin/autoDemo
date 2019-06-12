@@ -1,0 +1,39 @@
+<ns0:environment xmlns:ns0="urn:model.commons.qatools.yandex.ru">
+  <id>06b60206-8075-4514-91d1-533ab0dc8101</id>
+  <name>Allure environment parameters</name>
+  <parameter>
+    <key>platform</key>
+    <name>platform</name>
+    <value>Darwin-18.5.0-x86_64-i386-64bit</value>
+  </parameter>
+  <parameter>
+    <key>version</key>
+    <name>version</name>
+    <value>Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64</value>
+  </parameter>
+  <parameter>
+    <key>architecture</key>
+    <name>architecture</name>
+    <value>('64bit', '')</value>
+  </parameter>
+  <parameter>
+    <key>machine</key>
+    <name>machine</name>
+    <value>x86_64</value>
+  </parameter>
+  <parameter>
+    <key>node</key>
+    <name>node</name>
+    <value>houmeijin.local</value>
+  </parameter>
+  <parameter>
+    <key>processor</key>
+    <name>processor</name>
+    <value>i386</value>
+  </parameter>
+  <parameter>
+    <key>uname</key>
+    <name>uname</name>
+    <value>uname_result(system='Darwin', node='houmeijin.local', release='18.5.0', version='Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64', machine='x86_64', processor='i386')</value>
+  </parameter>
+</ns0:environment>

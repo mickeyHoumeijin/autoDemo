@@ -1,0 +1,21 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Copa登陆",
+    "children" : [ {
+      "name" : "TestLogin.test_login",
+      "uid" : "114ffefa089cd2b8",
+      "parentUid" : "3a9538e4d1e42a5fa1f8130552484939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560234715730,
+        "stop" : 1560234718962,
+        "duration" : 3232
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3a9538e4d1e42a5fa1f8130552484939"
+  } ]
+}

@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "houmeijin.local" ],
+  "name" : "node"
+}, {
+  "values" : [ "uname_result(system='Darwin', node='houmeijin.local', release='18.5.0', version='Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64', machine='x86_64', processor='i386')" ],
+  "name" : "uname"
+}, {
+  "values" : [ "x86_64" ],
+  "name" : "machine"
+}, {
+  "values" : [ "i386" ],
+  "name" : "processor"
+}, {
+  "values" : [ "Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64" ],
+  "name" : "version"
+}, {
+  "values" : [ "Darwin-18.5.0-x86_64-i386-64bit" ],
+  "name" : "platform"
+}, {
+  "values" : [ "('64bit', '')" ],
+  "name" : "architecture"
+} ]

@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "houmeijin.local",
+    "children" : [ {
+      "name" : "2191-MainThread",
+      "children" : [ {
+        "name" : "TestLogin.test_login",
+        "uid" : "114ffefa089cd2b8",
+        "parentUid" : "c357259688baaf673e3c1be57ae32af5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560234715730,
+          "stop" : 1560234718962,
+          "duration" : 3232
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c357259688baaf673e3c1be57ae32af5"
+    } ],
+    "uid" : "493578e093e77210c93da661979ff95b"
+  } ]
+}

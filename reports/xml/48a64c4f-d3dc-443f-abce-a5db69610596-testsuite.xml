@@ -1,0 +1,35 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1560234715730" stop="1560234718962">
+  <name>testcase.test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1560234715730" status="passed" stop="1560234718962">
+      <name>TestLogin.test_login</name>
+      <attachments>
+        <attachment source="5a37c90b-3c41-4d78-bbfa-0a8dfdc39886-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="testId" value="测试用例1"/>
+        <label name="feature" value="Copa登陆"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="2191-MainThread"/>
+        <label name="host" value="houmeijin.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1560234715731" status="passed" stop="1560234717494">
+          <name>初始化操作</name>
+          <title>初始化操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1560234718962" status="passed" stop="1560234719033">
+          <name>清除</name>
+          <title>清除</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

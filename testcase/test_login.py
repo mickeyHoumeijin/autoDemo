@@ -16,7 +16,7 @@ class TestLogin:
         chrome_options = Options()
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
-        self.driver = webdriver.Chrome(chrome_options)
+        self.driver = webdriver.Chrome("/root/chromedriver",chrome_options)
         self.loginPage = LoginPage(self.driver)
     @helper.testcase("测试用例1")
     def test_login(self):

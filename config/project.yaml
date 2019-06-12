@@ -1,3 +1,7 @@
 #配置项目绝对路径
+#本地跑
+#本地Jenkins 要全路径/Users/houmj/Documents/py_workplace
 project:
-    path: /Users/houmj/Documents/py_workplace
+    path: py_workplace
+
+    #path: /Users/houmj/Documents/py_workplace

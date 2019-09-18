@@ -2,8 +2,11 @@
 
 testSuite:
     module:
-        test_login.py
+        web/test_login.py
+        web/test_baidu.py
 
 #设置失败重跑次数
 
 retrys: 0
+#浏览器驱动
+browser: chrome

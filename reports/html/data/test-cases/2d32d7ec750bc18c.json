@@ -1,0 +1,100 @@
+{
+  "uid" : "2d32d7ec750bc18c",
+  "name" : "TestWapLogin.test_login",
+  "fullName" : "testcase.wap.test_wap_login.TestWapLogin.test_login",
+  "historyId" : "f1bd5a893a1bcfd4126a29039d957c21",
+  "time" : {
+    "start" : 1568796215812,
+    "stop" : 1568796229307,
+    "duration" : 13495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launch site",
+      "time" : {
+        "start" : 1568796215820,
+        "stop" : 1568796218025,
+        "duration" : 2205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "69aac8ee97a95d65",
+      "name" : "Captured stdout setup",
+      "source" : "69aac8ee97a95d65.txt",
+      "type" : "text/plain",
+      "size" : 10
+    }, {
+      "uid" : "f5fdd469cac5af96",
+      "name" : "Captured stdout call",
+      "source" : "f5fdd469cac5af96.txt",
+      "type" : "text/plain",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Copa登陆"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "houmeijin.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4937-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase.wap.test_wap_login"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase.wap.test_wap_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestWapLogin.test_login"
+  }, {
+    "name" : "package",
+    "value" : "testcase.wap.test_wap_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d32d7ec750bc18c.json",
+  "parameterValues" : [ ]
+}

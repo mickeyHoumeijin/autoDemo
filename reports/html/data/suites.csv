@@ -1,2 +1,5 @@
 "Status","Name","Duration in ms","Description"
-"passed","testcase.test_login.TestLogin.test_login","3232",""
+"passed","testcase.web.test_notice.TestNotice.test_notice","12543",""
+"passed","testcase.wap.test_wap_login.TestWapLogin.test_login","13495",""
+"passed","testcase.web.test_baidu.TestBaidu.test_login","2932",""
+"passed","testcase.web.test_login.TestLogin.test_login","4482",""

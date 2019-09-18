@@ -1,0 +1,36 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568796215812" stop="1568796220294">
+  <name>testcase.web.test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568796215812" status="passed" stop="1568796220294">
+      <name>TestLogin.test_login</name>
+      <attachments>
+        <attachment source="e37b2fd3-62b2-4440-a0ad-8ee68297103c-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="5799074d-da12-432b-8a7c-cd5a5c488006-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Copa登陆"/>
+        <label name="testId" value="copa-login"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4939-MainThread"/>
+        <label name="host" value="houmeijin.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568796215821" status="passed" stop="1568796217235">
+          <name>Launch site</name>
+          <title>Launch site</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1568796220295" status="passed" stop="1568796222369">
+          <name>login quit</name>
+          <title>login quit</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

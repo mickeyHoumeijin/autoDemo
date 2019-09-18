@@ -1,0 +1,23 @@
+2019-09-18 16:43:58 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->mb_marketing
+2019-09-18 16:43:58 [root] [INFO] :20: 点击元素:('id', 'mb_marketing')
+2019-09-18 16:44:00 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->/html/body/div/aside/section/ul/li[6]/ul/li[2]/a
+2019-09-18 16:44:00 [root] [INFO] :20: 点击元素:('xpath', '/html/body/div/aside/section/ul/li[6]/ul/li[2]/a')
+2019-09-18 16:44:00 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->/html/body/div/div[1]/section[2]/div/div/div/div/div/a
+2019-09-18 16:44:01 [root] [INFO] :20: 点击元素:('xpath', '/html/body/div/div[1]/section[2]/div/div/div/div/div/a')
+2019-09-18 16:44:01 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->id_title
+2019-09-18 16:44:01 [root] [INFO] :20: 元素:('id', 'id_title'),输入文本：标题标题标题
+2019-09-18 16:44:01 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->id_content
+2019-09-18 16:44:01 [root] [INFO] :20: 元素:('id', 'id_content'),输入文本：内容内容尼尔内容
+2019-09-18 16:44:01 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->id_display_start_date
+2019-09-18 16:44:01 [root] [INFO] :20: 点击元素:('id', 'id_display_start_date')
+2019-09-18 16:44:01 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->//*[@id="ui-datepicker-div"]/div[3]/button[1]
+2019-09-18 16:44:01 [root] [INFO] :20: 点击元素:('xpath', '//*[@id="ui-datepicker-div"]/div[3]/button[1]')
+2019-09-18 16:44:01 [root] [INFO] :20: 正在定位元素信息：定位方式->id, value值->id_display_end_date
+2019-09-18 16:44:01 [root] [INFO] :20: 点击元素:('id', 'id_display_end_date')
+2019-09-18 16:44:01 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->//*[@id="ui-datepicker-div"]/div[3]/button[1]
+2019-09-18 16:44:01 [root] [INFO] :20: 点击元素:('xpath', '//*[@id="ui-datepicker-div"]/div[3]/button[1]')
+2019-09-18 16:44:01 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->/html/body/div[1]/div[1]/section[2]/div/div/div/div/div/form/button
+2019-09-18 16:44:01 [root] [INFO] :20: 点击元素:('xpath', '/html/body/div[1]/div[1]/section[2]/div/div/div/div/div/form/button')
+2019-09-18 16:44:03 [root] [INFO] :20: 元素：('xpath', '//*[@id="notification_list"]/tbody/tr[1]/td[2]')，获取文本
+2019-09-18 16:44:03 [root] [INFO] :20: 正在定位元素信息：定位方式->xpath, value值->//*[@id="notification_list"]/tbody/tr[1]/td[2]
+2019-09-18 16:44:03 [root] [INFO] :20: 获取到文本：标题标题标题

@@ -1,0 +1,143 @@
+{
+  "uid" : "41adebe30370abd7",
+  "name" : "TestNotice.test_notice",
+  "fullName" : "testcase.web.test_notice.TestNotice.test_notice",
+  "historyId" : "759beb11f3f611a3e2a833501b198984",
+  "time" : {
+    "start" : 1568796231386,
+    "stop" : 1568796243929,
+    "duration" : 12543
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加公告登陆",
+      "time" : {
+        "start" : 1568796231387,
+        "stop" : 1568796235144,
+        "duration" : 3757
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Launch site",
+        "time" : {
+          "start" : 1568796231392,
+          "stop" : 1568796233274,
+          "duration" : 1882
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "公告清除",
+      "time" : {
+        "start" : 1568796243930,
+        "stop" : 1568796246002,
+        "duration" : 2072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cd9e941d4151ffe5",
+      "name" : "Captured stdout setup",
+      "source" : "cd9e941d4151ffe5.txt",
+      "type" : "text/plain",
+      "size" : 1331
+    }, {
+      "uid" : "995c4a1a618ee3e3",
+      "name" : "Captured stdout call",
+      "source" : "995c4a1a618ee3e3.txt",
+      "type" : "text/plain",
+      "size" : 2673
+    }, {
+      "uid" : "9d5071a9aef7d550",
+      "name" : "Captured log call",
+      "source" : "9d5071a9aef7d550.txt",
+      "type" : "text/plain",
+      "size" : 2695
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "快讯通知"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "houmeijin.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "添加公告"
+  }, {
+    "name" : "thread",
+    "value" : "4937-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase.web.test_notice"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase.web.test_notice"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestNotice.test_notice"
+  }, {
+    "name" : "package",
+    "value" : "testcase.web.test_notice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "添加公告",
+    "url" : "添加公告",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41adebe30370abd7.json",
+  "parameterValues" : [ ]
+}

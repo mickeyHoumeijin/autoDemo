@@ -1,0 +1,23 @@
+basePage.py                 64 INFO     正在定位元素信息：定位方式->id, value值->mb_marketing
+basePage.py                 97 INFO     点击元素:('id', 'mb_marketing')
+basePage.py                 64 INFO     正在定位元素信息：定位方式->xpath, value值->/html/body/div/aside/section/ul/li[6]/ul/li[2]/a
+basePage.py                 97 INFO     点击元素:('xpath', '/html/body/div/aside/section/ul/li[6]/ul/li[2]/a')
+basePage.py                 64 INFO     正在定位元素信息：定位方式->xpath, value值->/html/body/div/div[1]/section[2]/div/div/div/div/div/a
+basePage.py                 97 INFO     点击元素:('xpath', '/html/body/div/div[1]/section[2]/div/div/div/div/div/a')
+basePage.py                 64 INFO     正在定位元素信息：定位方式->id, value值->id_title
+basePage.py                 88 INFO     元素:('id', 'id_title'),输入文本：标题标题标题
+basePage.py                 64 INFO     正在定位元素信息：定位方式->id, value值->id_content
+basePage.py                 88 INFO     元素:('id', 'id_content'),输入文本：内容内容尼尔内容
+basePage.py                 64 INFO     正在定位元素信息：定位方式->id, value值->id_display_start_date
+basePage.py                 97 INFO     点击元素:('id', 'id_display_start_date')
+basePage.py                 64 INFO     正在定位元素信息：定位方式->xpath, value值->//*[@id="ui-datepicker-div"]/div[3]/button[1]
+basePage.py                 97 INFO     点击元素:('xpath', '//*[@id="ui-datepicker-div"]/div[3]/button[1]')
+basePage.py                 64 INFO     正在定位元素信息：定位方式->id, value值->id_display_end_date
+basePage.py                 97 INFO     点击元素:('id', 'id_display_end_date')
+basePage.py                 64 INFO     正在定位元素信息：定位方式->xpath, value值->//*[@id="ui-datepicker-div"]/div[3]/button[1]
+basePage.py                 97 INFO     点击元素:('xpath', '//*[@id="ui-datepicker-div"]/div[3]/button[1]')
+basePage.py                 64 INFO     正在定位元素信息：定位方式->xpath, value值->/html/body/div[1]/div[1]/section[2]/div/div/div/div/div/form/button
+basePage.py                 97 INFO     点击元素:('xpath', '/html/body/div[1]/div[1]/section[2]/div/div/div/div/div/form/button')
+basePage.py                199 INFO     元素：('xpath', '//*[@id="notification_list"]/tbody/tr[1]/td[2]')，获取文本
+basePage.py                 64 INFO     正在定位元素信息：定位方式->xpath, value值->//*[@id="notification_list"]/tbody/tr[1]/td[2]
+basePage.py                202 INFO     获取到文本：标题标题标题

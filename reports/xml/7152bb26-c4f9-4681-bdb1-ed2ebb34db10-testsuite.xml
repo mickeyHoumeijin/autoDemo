@@ -1,0 +1,44 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568796231386" stop="1568796243929">
+  <name>testcase.web.test_notice</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568796231386" status="passed" stop="1568796243929">
+      <name>TestNotice.test_notice</name>
+      <attachments>
+        <attachment source="a5da81c7-6d13-41e8-b906-ad4160218739-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="84f1379e-e2bb-4065-a514-4fdaeea0bc03-attachment.txt" title="Captured stdout call" type="text/plain"/>
+        <attachment source="1ac2fdfd-a92a-4200-ad46-47b15c92b7f6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="快讯通知"/>
+        <label name="testId" value="添加公告"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4937-MainThread"/>
+        <label name="host" value="houmeijin.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568796231387" status="passed" stop="1568796235144">
+          <name>添加公告登陆</name>
+          <title>添加公告登陆</title>
+          <attachments/>
+          <steps>
+            <step start="1568796231392" status="passed" stop="1568796233274">
+              <name>Launch site</name>
+              <title>Launch site</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+        <step start="1568796243930" status="passed" stop="1568796246002">
+          <name>公告清除</name>
+          <title>公告清除</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

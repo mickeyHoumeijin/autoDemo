@@ -1,0 +1,122 @@
+{
+  "uid" : "c73f9e9d7b558f55",
+  "name" : "TestLogin.test_login",
+  "fullName" : "testcase.web.test_login.TestLogin.test_login",
+  "historyId" : "fd1a810e217afaf6505295d1c6ca1024",
+  "time" : {
+    "start" : 1568796215812,
+    "stop" : 1568796220294,
+    "duration" : 4482
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launch site",
+      "time" : {
+        "start" : 1568796215821,
+        "stop" : 1568796217235,
+        "duration" : 1414
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "login quit",
+      "time" : {
+        "start" : 1568796220295,
+        "stop" : 1568796222369,
+        "duration" : 2074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d65876777d963ff3",
+      "name" : "Captured stdout setup",
+      "source" : "d65876777d963ff3.txt",
+      "type" : "text/plain",
+      "size" : 69
+    }, {
+      "uid" : "a70b962a3a5b3e05",
+      "name" : "Captured stdout call",
+      "source" : "a70b962a3a5b3e05.txt",
+      "type" : "text/plain",
+      "size" : 1581
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Copa登陆"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "houmeijin.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "copa-login"
+  }, {
+    "name" : "thread",
+    "value" : "4939-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase.web.test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase.web.test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login"
+  }, {
+    "name" : "package",
+    "value" : "testcase.web.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "copa-login",
+    "url" : "copa-login",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c73f9e9d7b558f55.json",
+  "parameterValues" : [ ]
+}

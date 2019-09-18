@@ -1,0 +1,29 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568796215812" stop="1568796218744">
+  <name>testcase.web.test_baidu</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568796215812" status="passed" stop="1568796218744">
+      <name>TestBaidu.test_login</name>
+      <attachments>
+        <attachment source="703b164c-491d-4195-9986-e99135be00d9-attachment.txt" title="Captured stdout setup" type="text/plain"/>
+        <attachment source="ed9845c1-80fe-4bee-a1d4-60e6235e3b84-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="Copa登陆"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4938-MainThread"/>
+        <label name="host" value="houmeijin.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568796215820" status="passed" stop="1568796217348">
+          <name>Launch site</name>
+          <title>Launch site</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

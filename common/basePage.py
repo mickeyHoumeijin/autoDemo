@@ -10,34 +10,35 @@ import platform
 import time
 from common import readYaml
 
-
 '''
 定义基类
 '''
-class BasePage():
 
+
+class BasePage():
     '''基于原生的selenium做二次封装'''
+
     def __init__(self, driver):
         '''获取操作系统信息'''
-        platform1=platform.platform()  # 获取操作系统名称及版本号，'Windows-7-6.1.7601-SP1'
-        version=platform.version()  # 获取操作系统版本号，'6.1.7601'
-        architecture=platform.architecture()  # 获取操作系统的位数，('32bit', 'WindowsPE')
-        machine=platform.machine()  # 计算机类型，'x86'
-        node=platform.node()  # 计算机的网络名称，'hongjie-PC'
-        processor=platform.processor()  # 计算机处理器信息，'x86 Family 16 Model 6 Stepping 3, AuthenticAMD'
-        uname=platform.uname()  # 包含上面所有的信息汇总，uname_result(system='Windows', node='hongjie-PC',
-        MASTER_HELPER.environment(platform=platform1,version=version,architecture=architecture,machine=machine,node=node,processor=processor,uname=uname)
+        platform1 = platform.platform()  # 获取操作系统名称及版本号，'Windows-7-6.1.7601-SP1'
+        version = platform.version()  # 获取操作系统版本号，'6.1.7601'
+        architecture = platform.architecture()  # 获取操作系统的位数，('32bit', 'WindowsPE')
+        machine = platform.machine()  # 计算机类型，'x86'
+        node = platform.node()  # 计算机的网络名称，'hongjie-PC'
+        processor = platform.processor()  # 计算机处理器信息，'x86 Family 16 Model 6 Stepping 3, AuthenticAMD'
+        uname = platform.uname()  # 包含上面所有的信息汇总，uname_result(system='Windows', node='hongjie-PC',
+        MASTER_HELPER.environment(platform=platform1, version=version, architecture=architecture, machine=machine,
+                                  node=node, processor=processor, uname=uname)
 
         '''设置轮循时间及超时时间'''
         self.logger = logger.Logger().getLogger()
         self.driver = driver
         self.timeout = 10
         self.t = 0.5
-
-    def get(self,url=''):
+    def get(self, url=''):
         '''访问网址'''
         self.driver.get(url)
-        self.logger.info("访问网址："+url)
+        self.logger.info("访问网址：" + url)
 
     def quit(self):
         '''关闭浏览器'''
@@ -46,12 +47,12 @@ class BasePage():
 
     def get_title(self):
         '''获取网页title'''
-        self.logger.info("获取网页title："+self.driver.title)
+        self.logger.info("获取网页title：" + self.driver.title)
         return self.driver.title
 
     def get_current_url(self):
         '''获取当前url'''
-        self.logger.info("获取当前url:"+self.driver.current_url)
+        self.logger.info("获取当前url:" + self.driver.current_url)
         return self.driver.current_url
 
     def findElement(self, locator):
@@ -67,14 +68,14 @@ class BasePage():
                 self.get_screen()
                 raise Exception("定位元素超时，未定位到该元素")
 
-
     def findElements(self, locator):
         if not isinstance(locator, tuple):
             print('locator参数类型错误，必须传元祖类型：loc = ("id", "value1")')
         else:
             try:
-                self.logger.info("正在定位元素信息：定位方式->%s, value值->%s"%(locator[0], locator[1]))
-                eles = WebDriverWait(self.driver, self.timeout, self.t).until(EC.presence_of_all_elements_located(locator))
+                self.logger.info("正在定位元素信息：定位方式->%s, value值->%s" % (locator[0], locator[1]))
+                eles = WebDriverWait(self.driver, self.timeout, self.t).until(
+                    EC.presence_of_all_elements_located(locator))
                 return eles
             except Exception as e:
                 self.get_screen()
@@ -84,16 +85,16 @@ class BasePage():
         try:
             ele = self.findElement(locator)
             ele.send_keys(text)
-            self.logger.info("元素:{},输入文本：{}".format(locator,text))
+            self.logger.info("元素:{},输入文本：{}".format(locator, text))
         except Exception as e:
             self.get_screen()
-            raise Exception("元素：{}，输入异常！！".format(locator,text))
+            raise Exception("元素：{}，输入异常！！".format(locator, text))
 
     def click(self, locator):
         try:
             ele = self.findElement(locator)
             ele.click()
-            self.logger.info("点击元素:"+str(locator))
+            self.logger.info("点击元素:" + str(locator))
         except Exception:
             self.get_screen()
             raise Exception("点击元素{}失败".format(locator))
@@ -125,54 +126,56 @@ class BasePage():
 
     def is_title(self, _title=''):
         '''返回bool值'''
-        self.logger.info("判断标题是否为："+_title)
+        self.logger.info("判断标题是否为：" + _title)
         try:
             result = WebDriverWait(self.driver, self.timeout, self.t).until(EC.title_is(_title))
-            self.logger.info("标题为："+_title)
+            self.logger.info("标题为：" + _title)
             return result
         except:
             self.get_screen()
-            self.logger.error("标题不是："+_title)
+            self.logger.error("标题不是：" + _title)
             return False
 
     def is_title_contains(self, _title=''):
         '''返回bool值'''
-        self.logger.info("判断标题是否包含文本："+_title)
+        self.logger.info("判断标题是否包含文本：" + _title)
         try:
             result = WebDriverWait(self.driver, self.timeout, self.t).until(EC.title_contains(_title))
-            self.logger.info("标题包含："+_title)
+            self.logger.info("标题包含：" + _title)
             return result
         except:
             self.get_screen()
-            self.logger.info("标题不包含："+_title)
+            self.logger.info("标题不包含：" + _title)
             return False
 
     def is_text_in_element(self, locator, _text=''):
         '''返回bool值'''
-        self.logger.info("判断元素文本是否为："+_text)
+        self.logger.info("判断元素文本是否为：" + _text)
         if not isinstance(locator, tuple):
             print('locator参数类型错误，必须传元祖类型：loc = ("id", "value1")')
         try:
-            result = WebDriverWait(self.driver, self.timeout, self.t).until(EC.text_to_be_present_in_element(locator, _text))
-            self.logger.info("元素文本为："+_text)
+            result = WebDriverWait(self.driver, self.timeout, self.t).until(
+                EC.text_to_be_present_in_element(locator, _text))
+            self.logger.info("元素文本为：" + _text)
             return result
         except:
             self.get_screen()
-            self.logger.error("元素文本不为："+_text)
+            self.logger.error("元素文本不为：" + _text)
             return False
 
     def is_value_in_element(self, locator, _value=''):
         '''返回bool值, value为空字符串，返回Fasle'''
-        self.logger.info("判断元素value值是否为："+_value)
+        self.logger.info("判断元素value值是否为：" + _value)
         if not isinstance(locator, tuple):
             print('locator参数类型错误，必须传元祖类型：loc = ("id", "value1")')
         try:
-            result = WebDriverWait(self.driver, self.timeout, self.t).until(EC.text_to_be_present_in_element_value(locator, _value))
-            self.logger.info("元素value值为："+_value)
+            result = WebDriverWait(self.driver, self.timeout, self.t).until(
+                EC.text_to_be_present_in_element_value(locator, _value))
+            self.logger.info("元素value值为：" + _value)
             return result
         except:
             self.get_screen()
-            self.logger.error("元素value值不为："+_value)
+            self.logger.error("元素value值不为：" + _value)
             return False
 
     def is_alert(self, timeout=3):
@@ -180,7 +183,7 @@ class BasePage():
         self.logger.info("判断是否存在alert，并返回alert实例")
         try:
             result = WebDriverWait(self.driver, timeout, self.t).until(EC.alert_is_present())
-            self.logger.info("存在alert，返回实例："+result)
+            self.logger.info("存在alert，返回实例：" + result)
             return result
         except:
             self.get_screen()
@@ -196,7 +199,7 @@ class BasePage():
         self.logger.info("元素：{}，获取文本".format(locator))
         try:
             t = self.findElement(locator).text
-            self.logger.info("获取到文本："+t)
+            self.logger.info("获取到文本：" + t)
             return t
         except:
             self.get_screen()
@@ -205,20 +208,20 @@ class BasePage():
 
     def get_attribute(self, locator, name):
         '''获取属性'''
-        self.logger.info("元素：{}，获取属性：{}" % locator,name)
+        self.logger.info("元素：{}，获取属性：{}" % locator, name)
         try:
             element = self.findElement(locator)
-            atr=element.get_attribute(name)
-            self.logger.info("获取到元素属性："+atr)
+            atr = element.get_attribute(name)
+            self.logger.info("获取到元素属性：" + atr)
             return atr
         except:
             self.get_screen()
-            self.logger.error("获取%s属性失败，返回'' "%name)
+            self.logger.error("获取%s属性失败，返回'' " % name)
             return ""
 
     def js_focus_element(self, locator):
         '''聚焦元素'''
-        self.logger.info("聚焦元素："+str(locator))
+        self.logger.info("聚焦元素：" + str(locator))
         try:
             target = self.findElement(locator)
             self.driver.execute_script("arguments[0].scrollIntoView();", target)
@@ -237,11 +240,11 @@ class BasePage():
             self.get_screen()
             raise Exception("滚动失败")
 
-    def js_scroll_end(self,x=0):
+    def js_scroll_end(self, x=0):
         '''滚动到底部'''
         self.logger.info("调用Js滚动到底部")
         try:
-            js = "window.scrollTo(%s,document.body.scrollHeight)"%x
+            js = "window.scrollTo(%s,document.body.scrollHeight)" % x
             self.driver.execute_script(js)
             self.logger.info("滚动成功")
         except:
@@ -314,20 +317,19 @@ class BasePage():
 
     def move_to_element(self, locator):
         '''鼠标悬停操作'''
-        self.logger.info("鼠标悬停在元素："+str(locator))
+        self.logger.info("鼠标悬停在元素：" + str(locator))
         try:
             ele = self.findElement(locator)
             ActionChains(self.driver).move_to_element(ele).perform()
         except:
             raise Exception("悬停元素失败")
 
-    def get_screen(self,file_name=time.strftime('%Y-%m-%d_%H-%S-%M',time.localtime(time.time()))):
+    def get_screen(self, file_name=time.strftime('%Y-%m-%d_%H-%S-%M', time.localtime(time.time()))):
         '''截图'''
         self.logger.info("在此时进行截图！！")
         try:
-            dit=readYaml.read("project.yaml")
-            file_name="{}/screen/{}.png".format(dit['project']['path'],file_name)
-
+            dit = readYaml.read("project.yaml")
+            file_name = r"{}\screen\{}.png".format(dit['project']['path'], file_name)
             self.driver.get_screenshot_as_file(file_name)
             with open(file_name, 'rb') as file:
                 f = file.read()
@@ -338,14 +340,7 @@ class BasePage():
 
 
 if __name__ == "__main__":
-    print('kaishishhsssssssssssssss')
-    driver=webdriver.Chrome()
-    base=BasePage(driver)
+    driver = webdriver.Chrome()
+    base = BasePage(driver)
     base.get("https://www.baidu.com")
     print(base.get_screen())
-    print('endddddddddd')
-    driver.close()
-    driver.quit()
-
-
-

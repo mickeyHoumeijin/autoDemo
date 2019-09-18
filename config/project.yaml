@@ -2,6 +2,6 @@
 #本地跑
 #本地Jenkins 要全路径/Users/houmj/Documents/py_workplace
 project:
-    path: py_workplace
+    #path: py_workplace
 
-    #path: /Users/houmj/Documents/py_workplace
+    path: /Users/houmj/Documents/py_workplace

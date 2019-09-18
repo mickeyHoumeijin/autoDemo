@@ -1,0 +1,100 @@
+{
+  "uid" : "fdf5fb8574abb8ae",
+  "name" : "TestBaidu.test_login",
+  "fullName" : "testcase.web.test_baidu.TestBaidu.test_login",
+  "historyId" : "9faa45941a9287f46c452f3bb0b963ef",
+  "time" : {
+    "start" : 1568796215812,
+    "stop" : 1568796218744,
+    "duration" : 2932
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launch site",
+      "time" : {
+        "start" : 1568796215820,
+        "stop" : 1568796217348,
+        "duration" : 1528
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8bd4da7cd92ddc1f",
+      "name" : "Captured stdout setup",
+      "source" : "8bd4da7cd92ddc1f.txt",
+      "type" : "text/plain",
+      "size" : 69
+    }, {
+      "uid" : "fb6a4388e45d91f9",
+      "name" : "Captured stdout call",
+      "source" : "fb6a4388e45d91f9.txt",
+      "type" : "text/plain",
+      "size" : 75
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Copa登陆"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "houmeijin.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4938-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase.web.test_baidu"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase.web.test_baidu"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestBaidu.test_login"
+  }, {
+    "name" : "package",
+    "value" : "testcase.web.test_baidu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdf5fb8574abb8ae.json",
+  "parameterValues" : [ ]
+}

@@ -9,7 +9,7 @@ if __name__ == '__main__':
     dit2 = readYaml.read("project.yaml")
     retrys = dit['retrys']
     modules = dit['testSuite']['module'].split(" ")
-    command = ["-s", "-q", "--reruns", str(retrys), "--alluredir", "./reports/xml"]
+    command = ["-s", "-q", "--reruns", str(retrys),"--alluredir", "./reports/xml"]
     dirname = dit2['project']['path']
 
     '''拼接路径'''

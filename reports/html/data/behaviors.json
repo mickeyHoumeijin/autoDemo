@@ -4,18 +4,58 @@
   "children" : [ {
     "name" : "Copa登陆",
     "children" : [ {
-      "name" : "TestLogin.test_login",
-      "uid" : "114ffefa089cd2b8",
+      "name" : "TestWapLogin.test_login",
+      "uid" : "2d32d7ec750bc18c",
       "parentUid" : "3a9538e4d1e42a5fa1f8130552484939",
       "status" : "passed",
       "time" : {
-        "start" : 1560234715730,
-        "stop" : 1560234718962,
-        "duration" : 3232
+        "start" : 1568796215812,
+        "stop" : 1568796229307,
+        "duration" : 13495
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestBaidu.test_login",
+      "uid" : "fdf5fb8574abb8ae",
+      "parentUid" : "3a9538e4d1e42a5fa1f8130552484939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568796215812,
+        "stop" : 1568796218744,
+        "duration" : 2932
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestLogin.test_login",
+      "uid" : "c73f9e9d7b558f55",
+      "parentUid" : "3a9538e4d1e42a5fa1f8130552484939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568796215812,
+        "stop" : 1568796220294,
+        "duration" : 4482
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
     "uid" : "3a9538e4d1e42a5fa1f8130552484939"
+  }, {
+    "name" : "快讯通知",
+    "children" : [ {
+      "name" : "TestNotice.test_notice",
+      "uid" : "41adebe30370abd7",
+      "parentUid" : "7f1cdd78ae6fd69814aa85778802264b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1568796231386,
+        "stop" : 1568796243929,
+        "duration" : 12543
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7f1cdd78ae6fd69814aa85778802264b"
   } ]
 }

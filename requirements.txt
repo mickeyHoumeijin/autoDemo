@@ -10,5 +10,5 @@ pytest-allure-adaptor==1.7.10
 pytest-forked==1.0.2
 pytest-rerunfailures==5.0
 pytest-xdist==1.23.2
-PyYAML==3.13
+PyYAML==5.1
 selenium==3.141.0

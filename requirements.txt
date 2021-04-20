@@ -3,7 +3,7 @@ namedlist==1.7
 packaging==19.1
 pbr==5.2.0
 pluggy==0.6.0
-py==1.8.0
+py==1.10.0
 pyparsing==2.4.2
 pytest==3.6.3
 pytest-allure-adaptor==1.7.10
